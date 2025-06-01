@@ -38,6 +38,7 @@ For every image, the following preprocessing steps were applied:
 # Data Split:
 
 The data was split in the following way:
+
 1.70% of the data for training.
 
 2.15% of the data for validation.
