@@ -1,3 +1,3 @@
 # Brain-Tumor-Detection
 Brain-Tumor-Detection
-https://github.com/Y-Aravind-Reddy/Brain-Tumor-Detection/blob/613e39c0f20381c3a1714282dcfc08126baae845/convnet_architecture.jpg
+![Image](https://github.com/user-attachments/assets/aff15563-688f-458f-a15c-a7659add83ea)
