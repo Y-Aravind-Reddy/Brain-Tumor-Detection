@@ -29,7 +29,10 @@ Note: these 2065 examples contains also the 253 original images. They are found 
 For every image, the following preprocessing steps were applied:
 
   1.Crop the part of the image that contains only the brain (which is the most important part of  the image).
+ 
   2.Resize the image to have a shape of (240, 240, 3)=(image_width, image_height, number of channels): because images in the dataset come in different sizes. So, all images should  have the same shape to feed it as an input to the neural network.
+ 
+ 
  3.Apply normalization: to scale pixel values to the range 0-1.
 
 # Data Split:
