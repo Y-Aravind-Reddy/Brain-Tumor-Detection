@@ -71,12 +71,13 @@ The model was trained for 24 epochs and these are the loss & accuracy plots:
  # Results
 Now, the best model (the one with the best validation accuracy) detects brain tumor with:
    
+                               
+                               
+     88.7% accuracy on the test set.
+     0.88 f1 score on the test set.
+    These resutls are very good considering that the data is balanced.
 
-88.7% accuracy on the test set.
-0.88 f1 score on the test set.
-These resutls are very good considering that the data is balanced.
-
-Performance table of the best model:
+## Performance table of the best model:
 
 Validation set	Test set
 Accuracy	91%	89%
