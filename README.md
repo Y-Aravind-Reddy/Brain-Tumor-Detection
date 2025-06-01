@@ -4,6 +4,7 @@ Used a brain MRI images data founded on Kaggle. You can find it here.
 
 #About the data:
 The dataset contains 2 folders: yes and no which contains 253 Brain MRI Images. The folder yes contains 155 Brain MRI Images that are tumorous and the folder no contains 98 Brain MRI Images that are non-tumorous.
+
 Getting Started
 Note: sometimes viewing IPython notebooks using GitHub viewer doesn't work as expected, so you can always view them using nbviewer.
 
@@ -58,7 +59,9 @@ Training the model
 The model was trained for 24 epochs and these are the loss & accuracy plots:
 Results
 Now, the best model (the one with the best validation accuracy) detects brain tumor with:
+![Image](https://github.com/user-attachments/assets/0526cb7b-ece9-4e4d-8a35-ad1fa5e3c499)
 
+![Image](https://github.com/user-attachments/assets/e7097222-e510-4e13-8b7f-9dc6eff81d16)
 88.7% accuracy on the test set.
 0.88 f1 score on the test set.
 These resutls are very good considering that the data is balanced.
