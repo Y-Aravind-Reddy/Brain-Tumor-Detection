@@ -39,7 +39,9 @@ For every image, the following preprocessing steps were applied:
 
 The data was split in the following way:
 1.70% of the data for training.
+
 2.15% of the data for validation.
+
 3.15% of the data for testing.
 # Neural Network Architecture
 This is the architecture that I've built:
@@ -48,12 +50,19 @@ Understanding the architecture:
 Each input x (image) has a shape of (240, 240, 3) and is fed into the neural network. And, it goes through the following layers:
 
 1.A Zero Padding layer with a pool size of (2, 2).
+
 2.A convolutional layer with 32 filters, with a filter size of (7, 7) and a stride equal to 1.
+
 3.A batch normalization layer to normalize pixel values to speed up computation.
+
 4.A ReLU activation layer.
+
 5.A Max Pooling layer with f=4 and s=4.
+
 6.A Max Pooling layer with f=4 and s=4, same as before.
+
 7.A flatten layer in order to flatten the 3-dimensional matrix into a one-dimensional vector.
+
 8.A Dense (output unit) fully connected layer with one neuron with a sigmoid activation (since this is a binary classification task).
 
 Why this architecture?
